@@ -1,9 +1,11 @@
 import './App.css';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
     <div className="App">
-      <h1>victor is a bad boy</h1>
+      <Navbar />
+      {/* <h1>victor is a bad boy</h1> */}
     </div>
   );
 }
